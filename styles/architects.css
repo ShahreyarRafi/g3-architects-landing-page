@@ -7,6 +7,7 @@
 * {
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
 }
 
 .primary-btn {
@@ -27,6 +28,7 @@
 nav {
     display: flex;
     justify-content: space-between;
+    padding-top: 63px;
 }
 
 nav>ul {
@@ -50,6 +52,12 @@ header {
     padding: 0 240px;
 }
 
+.G3-Architects {
+    color: #131313;
+    font-size: 2.81rem;
+    font-weight: 700;
+}
+
 /* banner styles */
 
 .banner-content {
@@ -63,10 +71,74 @@ header {
     font-size: 4rem;
     font-weight: 700;
     color: #131313;
+    margin-top: 102px;
 }
 
 .banner-description {
     font-size: 1.12rem;
     color: #727272;
     font-weight: 400;
+    padding-bottom: 32px;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+.banner img {
+    margin-top: 50px;
+    margin-bottom: 45px;
+    width: 100%;
+}
+
+/* responsive media queries */
+
+/* mobile devices */
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul {
+        padding-top: 30px;
+        justify-content: center;
+    }
+    nav li{
+        margin-right: 40px;
+        
+    }
+    .G3-Architects{
+        display: flex;
+        justify-content: center;
+    }
+    .banner-title{
+        margin-top: 80px;
+    }
+}
+
+/* medium devices */
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    header{
+        padding: 40px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul {
+        padding-top: 30px;
+        justify-content: center;
+    }
+    nav li{
+        margin-right: 40px;
+        
+    }
+    .G3-Architects{
+        display: flex;
+        justify-content: center;
+    }
+    .banner-title{
+        margin-top: 80px;
+    }
 }
