@@ -127,16 +127,64 @@ header {
     font-size: 2.81rem;
     font-weight: 700;
 }
+
 /* features section */
 
-.features-section{
+.features-section {
+    padding: 0 240px;
     display: flex;
+    gap: 146px
+}
+
+
+.features-content .card {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 20px;
+    padding: 30px 30px 8px 30px;
+
+}
+
+.features-content .title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.features-title {
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.ten-years-badge {
+    background-color: #FF900E;
+    color: #FFF;
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ten-years-badge h3 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.ten-years-badge p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 40px;
 }
 
 /* facts section */
 
 .facts {
-    margin: 0 240px;
+    margin: 130px 240px;
 }
 
 .facts-cards-container {
@@ -184,7 +232,7 @@ header {
     text-align: center;
 }
 
-.sponsors-img-container{
+.sponsors-img-container {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -264,7 +312,7 @@ header {
         text-align: center;
     }
 
-    .sponsors-img-container{
+    .sponsors-img-container {
         flex-direction: column;
         align-items: center;
         gap: 40px;
@@ -272,7 +320,7 @@ header {
 
     .sponsors {
         margin: 180px 40px 0px 40px;
-    
+
     }
 
     .sponsors img {
@@ -350,7 +398,7 @@ header {
         text-align: center;
     }
 
-    .sponsors-img-container{
+    .sponsors-img-container {
         flex-direction: column;
         align-items: center;
         gap: 40px;
@@ -358,7 +406,7 @@ header {
 
     .sponsors {
         margin: 180px 40px 0px 40px;
-    
+
     }
 
     .sponsors img {
